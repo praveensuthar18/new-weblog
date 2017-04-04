@@ -1,0 +1,93 @@
+
+body {
+	padding-top: 50px;
+	background: #eeeeee;
+	color: #222222;
+}
+
+table{
+
+}
+
+tr:nth-child(odd){
+	background-color: #aaaaaa;
+}
+
+tr:nth-child(even){
+	background-color: #999999;
+}
+
+.label {
+	color: black;
+}
+
+p.error {
+	color: red;
+	font-size: 105%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#center {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container1 {
+	margin-left: 200px;
+	margin-top: -20px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.nav-pills > li > a {
+	background-color: #333333;
+	color: #dddddd;
+}
+
+.nav-pills > li > a:hover {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+#sidebar-wrapper {
+	width: 200px;
+	background: #000000;
+	position: fixed;
+	height: 100%;
+}
+
+.sidebar-nav {
+	position: absolute;
+	top: 0;
+	width: 200px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-nav > li > a {
+	color: #999999;
+	display: block;
+	text-decoration: none;
+	line-height: 50px;
+	padding-left: 50px;
+}
+
+.sidebar-nav > li > a:hover, .sidebar-nav > li.active {
+	color: #ffffff;
+	background: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+#footer {
+	clear: both;
+	margin-top: 400px;
+	margin-bottom: 50px;
+	height: 19px;
+	text-align: center;
+}
