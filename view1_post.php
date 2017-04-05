@@ -18,7 +18,7 @@
 
     <style>
     section{width:100%; float:left;}
-    .banner-section{background-image:url("https://static.pexels.com/photos/216988/pexels-photo-216988.jpeg"); background-size:cover; height: 380px; left: 0; position: absolute; top: 0; background-position:0;}
+    .banner-section{background-image:url("images/banner.jpeg"); background-size:cover; height: 380px; left: 0; position: absolute; top: 0; background-position:0;}
     .post-title-block{padding:100px 0;}
     .post-title-block h1 {color: #fff; font-size: 85px; font-weight: bold; text-transform: capitalize;}
     .post-title-block li{font-size:20px; color: #fff;}
