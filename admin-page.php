@@ -17,7 +17,7 @@
 <body>
     <?php include("header.php"); ?>
 	<?php include("nav.php"); ?>
-    <div id="container">
+    <div id="container1">
         <div id="content">
             <?php
             if (!isset($_SESSION['user_level']) or ($_SESSION['user_level'] != 2))
