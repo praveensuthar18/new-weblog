@@ -24,7 +24,7 @@
                         $s_query = "$s_query%$word";
                     }
                     $s_query = "$s_query%";
-                    $query = "SELECT id, title FROM post WHERE title COLLATE UTF8_GENERAL_CI LIKE '$s_query' OR CONVERT(content USING latin1) LIKE '$s_query'";
+                    $query = "SELECT id, title FROM post WHERE title  LIKE '$s_query' OR CONVERT(content USING latin1) LIKE '$s_query'";
                     $result = mysqli_query($dbcon, $query);
                 }
             }
@@ -47,7 +47,7 @@
             if(@mysqli_num_rows($result) > 0){
                 echo '<ul class="nav nav-pills nav-stacked col-sm-6">';
                 while($row = mysqli_fetch_array($result)){
-                    echo '<li><a href="view_post.php?id=' . $row['id'] . '">' . $row['title'] . '</a></li>';
+                    echo '<li><a href="view1_post.php?id=' . $row['id'] . '">' . $row['title'] . '</a></li>';
                 }
                 echo '</ul>';
             }
